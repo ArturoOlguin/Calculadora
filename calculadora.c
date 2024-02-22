@@ -1,3 +1,5 @@
+//Gonzaga Martínez José Alberto
+
 #include <stdio.h>
 
 /*Funcion suma*/
