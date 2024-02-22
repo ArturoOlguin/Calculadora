@@ -1,20 +1,28 @@
 #include <stdio.h>
 
+/*Funcion suma*/
 
 float suma (float num1, float num2){
     return (num1+num2);
 }
+
 /*Funcion resta*/
-float resta(float n1,float n2){
-  return n1 - n2;
+float resta(float num1,float num2){
+  return (num1-num2);
 }
+
+/*Funcion multiplicacion*/
+float multiplicacion (float num1, float num2){
+    return (num1*num2);
+}
+
 /*Funcion division*/
-float division(float n1,float n2){
+float division(float num1,float num2){
   if (n2 == 0){
-    printf("Error division por cero")
+    printf("Error division por cero");
   }
   else{
-    return n1 / n2;
+    return (num1/num2);
   }
 }
 int main (){
