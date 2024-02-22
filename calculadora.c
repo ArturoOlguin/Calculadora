@@ -1,5 +1,3 @@
-//Gonzaga Martínez José Alberto
-
 #include <stdio.h>
 
 /*Funcion suma*/
@@ -20,12 +18,14 @@ float multiplicacion (float num1, float num2){
 
 /*Funcion division*/
 float division(float num1,float num2){
-  if (num2 == 0){
-    printf("Error division por cero");
+  if (num2 != 0){
+      return printf("\nLa division es:%.2f",(num1/num2));
   }
   else{
-    return (num1/num2);
+    printf("\nError division por cero");
+    return 0;
   }
+  
 }
 
 int main (){
@@ -39,7 +39,7 @@ int main (){
     printf("La suma es: %.2f",suma(num1, num2));
     printf("\nLa resta es: %.2f",resta(num1, num2));
     printf("\nLa multiplicacion es: %.2f",multiplicacion(num1, num2));
-    printf("\nLa division es: %.2f",division(num1, num2));
+    division(num1, num2);
 
     return 0;
 }
