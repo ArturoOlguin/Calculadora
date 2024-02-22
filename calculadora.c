@@ -18,7 +18,7 @@ float multiplicacion (float num1, float num2){
 
 /*Funcion division*/
 float division(float num1,float num2){
-  if (n2 == 0){
+  if (num2 == 0){
     printf("Error division por cero");
   }
   else{
