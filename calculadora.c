@@ -8,7 +8,15 @@ float suma (float num1, float num2){
 float resta(float n1,float n2){
   return n1 - n2;
 }
-
+/*Funcion division*/
+float division(float n1,float n2){
+  if (n2 == 0){
+    printf("Error division por cero")
+  }
+  else{
+    return n1 / n2;
+  }
+}
 int main (){
 
 float num1,num2;
