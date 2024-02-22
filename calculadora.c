@@ -33,6 +33,8 @@ int main (){
     scanf ("%f", &num1);
     scanf("%f",&num2);
     
-    printf("La suma es: %f", suma(num1, num2));
-    resta(num1, num2);
+    printf("La suma es: %.2f", suma(num1, num2));
+    printf("La resta es: %.2f",resta(num1, num2));
+    printf("La multiplicacion es: %.2f", multiplicaion(num1, num2));
+    printf("La division es: %.2f", division(num1, num2));
 }
